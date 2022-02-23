@@ -138,7 +138,7 @@ class Cell:
         
 class newClass:
     def __init__(self):
-        self.newField = 1
+        self.newField = 3
             
 def main():
     pygame.init()
