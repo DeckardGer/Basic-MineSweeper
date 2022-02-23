@@ -135,6 +135,10 @@ class Cell:
         flagImage = pygame.image.load("flag.png")
         flagImage = pygame.transform.scale(flagImage, (CELL_SIZE, CELL_SIZE))
         screen.blit(flagImage, (x, y))
+        
+class newClass:
+    def __init__(self):
+        self.newField = 1
             
 def main():
     pygame.init()
